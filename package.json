@@ -1,0 +1,18 @@
+{
+  "name": "example-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@aws-amplify/auth": "^4.0.1",
+    "@aws-amplify/core": "^4.0.3",
+    "aws-cognito-next": "^3.0.1",
+    "next": "10.2.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
